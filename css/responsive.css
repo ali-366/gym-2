@@ -1,0 +1,123 @@
+@media (max-width:575px){
+.navbar .navbar-brand {
+    position: unset !important;
+    transform: skewX(0deg) !important;
+    padding: 8px;
+}
+.navbar .navbar-brand img{
+    transform: skewX(0deg) !important;
+}
+.navbar .navbar-toggler {
+    border-color: #fff !important;
+    margin-right: 20px;
+    color: #fff;
+}
+.navbar .navbar-nav{
+    text-align: center;
+}
+.navbar .navbar-nav .nav-link{
+    line-height: 20px;
+}
+#banner{
+    margin-bottom: 20px;
+}
+#banner .banner-item{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+#banner .banner-item h4 {
+    padding-top: 70px;
+    font-size: 20px;
+}
+#banner .banner-item h1 {
+    padding-top: 5px;
+    font-size: 30px;
+}
+#banner .bg1 .banner-text h1::before,
+#banner .bg1 .banner-text p::after,
+#banner .bg1 .banner-text p::before,
+#banner .bg1 .banner-text h4::before,
+#banner .bg1 .banner-text h4::after{
+    display: none;
+}
+#banner .banner-item .banner-text p{
+    padding-bottom: 5px;
+}
+#banner .banner-item .banner-text .cta-btn{
+    padding-bottom: 5px;
+    margin-bottom:30px;
+}
+#about{
+    margin-bottom: 20px;
+}
+#gallery{
+     margin-bottom: 20px;
+}
+#testimonial{
+    margin-bottom: 20px;
+}
+#plans{
+    margin-bottom: 20px;
+}
+#brand{
+    position: relative;
+    padding-bottom: 20px;
+}
+#funfact{
+
+    margin-bottom: 20px;
+}
+#nav-tab{
+    margin-bottom: 20px;
+}
+#funfact .fun-item{
+    text-align: center;
+}
+footer .footer-item .time{
+    margin-left: 47px !important;
+}
+footer .footer-item .twitter-fed{
+    margin-left: 26px !important;
+}
+footer .footer-item .flickr-photo{
+    margin-left: 26px !important;
+}
+footer .footer-item .contact{
+    margin-left: 26px !important;
+    padding-left: 20px !important;
+}
+footer .footer-item .contact .icon i {
+    padding-right: 13px;
+    padding-left: 15px;
+}
+footer .footer-item .social{
+    margin-left: 26px !important;
+}
+footer .footer-item .social h3 {
+    padding-bottom: 15px;
+    padding-left: 18px;
+}
+footer .footer-item .social .social-icon a{
+    padding-bottom: 15px;
+
+}
+#nav-tab .nav-pills .nav-item {
+    width: 50%;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+#nav-tab .tab-content ul li{
+    width: 50%;
+}
+#plans .all-plans .plans-item .plans-img .plans-img-ovly h1 {
+    font-size: 20px;
+}
+#plans .all-plans .plans-item .plans-img .plans-img-ovly span {
+    font-size: 30px;
+}
+#testimonial .testimonial-bg .testimonial-item {
+    padding-right: 0px !important;
+    text-align: justify !important;
+    margin-right: 3px;
+}
+}
