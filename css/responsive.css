@@ -18,6 +18,9 @@
 .navbar .navbar-nav .nav-link{
     line-height: 20px;
 }
+/* ====================
+navbar responcive css
+====================== */
 #banner{
     margin-bottom: 20px;
 }
@@ -47,44 +50,95 @@
     padding-bottom: 5px;
     margin-bottom:30px;
 }
+/* ====================
+banner responcive css ends
+====================== */
 #about{
     margin-bottom: 20px;
 }
+/* ====================
+about responcive css ends
+====================== */
 #gallery{
      margin-bottom: 20px;
 }
+/* ====================
+gallery responcive css ends
+====================== */
 #testimonial{
     margin-bottom: 20px;
 }
+#testimonial .testimonial-bg .testimonial-item {
+    padding-right: 0px !important;
+    text-align: justify !important;
+    margin-right: 3px;
+}
+/* ====================
+testimonial responcive css ends
+====================== */
 #plans{
     margin-bottom: 20px;
 }
+#plans .all-plans .plans-item .plans-img .plans-img-ovly h1 {
+    font-size: 20px;
+}
+#plans .all-plans .plans-item .plans-img .plans-img-ovly span {
+    font-size: 30px;
+}
+/* ====================
+plans responcive css ends
+====================== */
 #brand{
     position: relative;
     padding-bottom: 20px;
 }
+/* ====================
+brand responcive css ends
+====================== */
 #funfact{
 
     margin-bottom: 20px;
 }
+/* ====================
+funfact responcive css ends
+====================== */
 #nav-tab{
     margin-bottom: 20px;
 }
+#nav-tab .nav-pills .nav-item {
+    width: 50%;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+#nav-tab .tab-content ul li{
+    width: 50%;
+}
+/* ====================
+nav-tab responcive css ends
+====================== */
 #funfact .fun-item{
     text-align: center;
 }
+/* ====================
+funfact responcive css ends
+====================== */
 footer .footer-item .time{
     margin-left: 47px !important;
 }
 footer .footer-item .twitter-fed{
     margin-left: 26px !important;
 }
-footer .footer-item .flickr-photo{
+footer .footer-item .flickr-photo {
     margin-left: 26px !important;
+    padding: 0px 40px;
 }
 footer .footer-item .contact{
     margin-left: 26px !important;
     padding-left: 20px !important;
+}
+footer .social .social-icon {
+    margin-bottom: 7px;
+
 }
 footer .footer-item .contact .icon i {
     padding-right: 13px;
@@ -101,6 +155,36 @@ footer .footer-item .social .social-icon a{
     padding-bottom: 15px;
 
 }
+/* ====================
+footer responcive css ends
+====================== */
+}
+@media (max-width:576px){
+    .navbar .navbar-brand {
+    position: unset !important;
+    transform: skewX(0deg) !important;
+    padding: 8px;
+}
+.navbar .navbar-brand img{
+    transform: skewX(0deg) !important;
+}
+.navbar .navbar-toggler {
+    border-color: #fff !important;
+    margin-right: 20px;
+    color: #fff;
+}
+.navbar .navbar-nav{
+    text-align: center;
+}
+.navbar .navbar-nav .nav-link{
+    line-height: 20px;
+}
+/* ====================
+navbar responcive css ends
+====================== */
+#nav-tab{
+    margin-bottom: 20px;
+}
 #nav-tab .nav-pills .nav-item {
     width: 50%;
     line-height: 40px;
@@ -109,15 +193,16 @@ footer .footer-item .social .social-icon a{
 #nav-tab .tab-content ul li{
     width: 50%;
 }
-#plans .all-plans .plans-item .plans-img .plans-img-ovly h1 {
-    font-size: 20px;
+/* ====================
+nav-tab responcive css ends
+====================== */
+footer .footer-item .flickr-photo {
+    padding:0px  80px;
 }
-#plans .all-plans .plans-item .plans-img .plans-img-ovly span {
-    font-size: 30px;
+footer .footer-item .social{
+    margin-bottom: 10px !important;
 }
-#testimonial .testimonial-bg .testimonial-item {
-    padding-right: 0px !important;
-    text-align: justify !important;
-    margin-right: 3px;
-}
+/* ====================
+footer responcive css ends
+====================== */
 }

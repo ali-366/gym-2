@@ -12,7 +12,7 @@ $(document).ready(function(){
 
     //testimonial
     $('.testimonial-slider').slick({
-        autoplay:true,
+        autoplay:false,
         dots:true,
         arrows: false,
        slidesToShow:2,
