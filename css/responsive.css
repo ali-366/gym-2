@@ -129,8 +129,7 @@ footer .footer-item .twitter-fed{
     margin-left: 26px !important;
 }
 footer .footer-item .flickr-photo {
-    margin-left: 26px !important;
-    padding: 0px 40px;
+
 }
 footer .footer-item .contact{
     margin-left: 26px !important;
@@ -197,7 +196,7 @@ navbar responcive css ends
 nav-tab responcive css ends
 ====================== */
 footer .footer-item .flickr-photo {
-    padding:0px  80px;
+  padding: 0px 44px;
 }
 footer .footer-item .social{
     margin-bottom: 10px !important;
@@ -205,4 +204,7 @@ footer .footer-item .social{
 /* ====================
 footer responcive css ends
 ====================== */
+}
+@media (max-width:576px){
+
 }

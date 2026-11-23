@@ -759,9 +759,9 @@ footer .footer-item .footer-copy .copyight {
     text-align: center;
 
 } 
-footer .footer-item .footer-item1{
-    padding: 0px 50px;
-} 
+footer .footer-item .footer-item1 {
+    padding: 0px 25px;
+}
 footer .footer-item .footer-copy .copyight a{
     color: var(--brandcl);
     padding-left: 5px;
